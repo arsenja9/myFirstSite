@@ -1,0 +1,104 @@
+body{
+    height: 100%;
+}
+.wrapper{
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.header-site{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #222222;
+
+}
+.name_shop{
+    color: white;
+    position: relative;
+    right: 215px;
+    font-family: Dosis;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 10px;
+}
+.name_shop span{
+    color: #FF7417;
+}
+.cart-sectional{
+
+}
+.optional1{
+    color: #FF7417;
+
+    font-family: Dosis;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 10px;
+}
+
+main {
+    flex: 1 1 auto;
+}
+.placeholder{
+    display: flex;
+    justify-content: space-around  ;
+    align-items: center;
+    width: 1680px;
+    height: 150px;
+}
+.button{
+    width: 195px;
+    height: 40px;
+
+    background: #EFEFEF;
+    border: 1px solid #A0A3AD;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px;
+}
+.all_product{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.staff{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+.img{
+    width: 250px;
+    height: 250px;
+}
+.name{
+    font-family: Dosis;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+
+}
+.buy_and_price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.button2{
+    width: 119px;
+    height: 40px;
+}
+.footer-site{
+    background-color: #222222;
+    padding-left: 50px;
+}
+.footer-content{
+    color: #FF7417;
+}
+.footer-content2{
+    color: white;
+}
